@@ -1,5 +1,5 @@
 # connection_ping
-Connection_ping sends one ping every 5 seconds and logs the result both positively, i.e. if a response is received, and negatively if no response is received
+Connection_ping sends ten pings every 10 seconds and logs the result both positively, i.e. if a response is received, and negatively if no response is received
 ## parameter
 
 *first Commandline-paramater is the domain or IP which you want to ping

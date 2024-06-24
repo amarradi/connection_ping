@@ -9,6 +9,6 @@ do
    else
      echo "OK $1 is reachable at "$DATE >> $2
    fi
-   sleep 5
+   sleep 10
 done
 
