@@ -1,4 +1,4 @@
-# connection_oing
+# connection_ping
 Connection_ping sends one ping every 5 seconds and logs the result both positively, i.e. if a response is received, and negatively if no response is received
 ## parameter
 
