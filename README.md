@@ -10,4 +10,7 @@ Connection_ping sends one ping every 5 seconds and logs the result both positive
 
 sh connection_ping google.com result.txt
 
+## exit
+
+Strg+C
 
