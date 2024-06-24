@@ -3,7 +3,8 @@ Connection_ping sends a ping every 5 seconds and logs the result both positively
 ## parameter
 
 *first Commandline-paramater is the domain or IP which you want to ping
-*second Commandline-parameter is the file name for the output
+
+*second Commandline-parameter is the filename for the output
 
 ## example
 
