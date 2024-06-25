@@ -4,7 +4,7 @@ while true;
 do
    DATE=$(date '+%d/%m/%Y %H:%M:%S')
    ping -c $3 $1 &> /dev/null
-   if [[ $? -ne 0 ]]; then
+   if [ $? -ne 0 ]; then
      echo "ERROR $1 is not reachable at" $DATE >> $2
    else
      echo "OK $1 is reachable at "$DATE >> $2
