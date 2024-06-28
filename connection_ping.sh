@@ -2,7 +2,7 @@
 touch $2
 while true;
 do
-   DATE=$(date '+%d/%m/%Y %H:%M:%S')
+   DATE=$(date -Is)
    ping -c $3 $1 &> /dev/null
    if [ $? -ne 0 ]; then
      echo "ERROR $1 is not reachable at" $DATE >> $2
