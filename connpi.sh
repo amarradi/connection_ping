@@ -5,9 +5,9 @@ do
    DATE=$(date -Is)
    ping -c $3 $1 &> /dev/null
    if [ $? -ne 0 ]; then
-     echo "ERROR $1 is not reachable at" $DATE >> $2
+     echo "ERROR $1 at" $DATE >> $2
    else
-     echo "OK $1 is reachable at "$DATE
+     echo "OK $1 at "$DATE >> $2
    fi
    sleep 10
 done
