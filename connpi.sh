@@ -7,7 +7,7 @@ do
    if [ $? -ne 0 ]; then
      echo "ERROR $1 is not reachable at" $DATE >> $2
    else
-     echo "OK $1 is reachable at "$DATE >> $2
+     echo "OK $1 is reachable at "$DATE
    fi
    sleep 10
 done
