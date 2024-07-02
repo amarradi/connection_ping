@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 touch $2
 while true;
 do
